@@ -1,14 +1,3 @@
-/***************************************************************
-  Copyright (c) 2019 ShenZhen Panath Technology, Inc.
-
-  The right to copy, distribute, modify or otherwise make use
-  of this software may be licensed only pursuant to the terms
-  of an applicable ShenZhen Panath license agreement.
- ***************************************************************/
-
-/* Red black tree, porting from linux kernel 2.6.32.
- * This is only red black tree, no augment such as higher kernel version.
-*/
 #include "rbtree.h"
 
 typedef unsigned long uint32_t;

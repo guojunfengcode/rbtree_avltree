@@ -1,11 +1,3 @@
-/***************************************************************
-  Copyright (c) 2019 ShenZhen Panath Technology, Inc.
-
-  The right to copy, distribute, modify or otherwise make use
-  of this software may be licensed only pursuant to the terms
-  of an applicable ShenZhen Panath license agreement.
- ***************************************************************/
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <getopt.h>
@@ -223,7 +215,7 @@ void test_data_build(int show)
     }
 
     for(i = 0; i < nodes_num; ++i) {
-        test_keys[i] = rand()%100000;
+        test_keys[i] = rand()%100;
     }
 
     rb_node_data = (struct test_rb_node *)
